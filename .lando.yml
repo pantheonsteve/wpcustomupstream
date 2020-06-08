@@ -1,0 +1,6 @@
+name: eie-wordpress
+recipe: pantheon
+config:
+  framework: wordpress
+  site: eie-wordpress
+  id: 11d95f17-684a-465c-8939-ef09ec180341
