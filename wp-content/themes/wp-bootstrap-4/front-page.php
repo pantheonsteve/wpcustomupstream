@@ -18,7 +18,6 @@ else {
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <?php while ( have_posts() ) : the_post(); ?>
-                            <h2 class="text-center mb-4"><?php the_title(); ?></h2>
                             <?php wp_bootstrap_4_post_thumbnail(); ?>
                             <?php the_content(); ?>
                         <?php endwhile; ?>
