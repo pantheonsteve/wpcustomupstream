@@ -16,7 +16,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
 WP Bootstrap 4 is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
-body { background-color: #f8f9fa; }
+body { background-color: #f8f9fa;
+  font-size: 1.1rem
+
+}
+
+body {
+  font-size: 1.1rem !important;
+}
+
+a {
+  color: #4089BD;
+  text-decoration: none;
+}
 
 hr { background-color: #ccc; border: 0; height: 1px; margin-bottom: 1.5em; }
 
@@ -336,6 +348,21 @@ body.custom-background .wp-bp-main-content .col-md-8 { background: #f8f9fa; padd
 /*--------------------------------------------------------------
 # EiE Specific Styles
 ---------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo-sans-rounded","myriad-pro",Arial,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #474747;
+  line-height: 1.4;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+  text-rendering: optimizeLegibility;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
 .mos-branding {
   background-color: #e5e7e9;
   height: 26px;
@@ -357,7 +384,7 @@ li.shop-eie > a{
   padding: 12px 24px !important;
   background: #4089BD;
   white-space: nowrap;
-
+}
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
