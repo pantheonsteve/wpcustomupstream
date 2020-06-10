@@ -349,7 +349,7 @@ body.custom-background .wp-bp-main-content .col-md-8 { background: #f8f9fa; padd
 # EiE Specific Styles
 ---------------------------------------------------------------*/
 
-body {
+body, p {
   margin: 0;
   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: 1rem;
