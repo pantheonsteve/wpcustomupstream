@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: Maxim Vendorov, Amit Keren
+Contributors: Maxim Vendorov, Amit Keren, freemius
 Donate link: http://unlimited-elements.com/
 Tags: elementor, elements, addons, elementor addon, elementor widget, page builder, builder, visual editor, wordpress page builder, elementor
 Requires at least: 3.5
